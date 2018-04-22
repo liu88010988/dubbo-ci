@@ -7,6 +7,5 @@
     <dubbo:registry address="zookeeper://45.77.68.222:2181" client="zkclient"/>
     <dubbo:protocol name="dubbo" port="20880"/>
     <dubbo:service
-            interface="com.liu.HelloService"
-            ref="helloService" version="1.0.0"/>
+            interface="com.liu.HelloService" ref="helloService" version="1.0.0"/>
 </beans>
